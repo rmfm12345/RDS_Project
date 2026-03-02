@@ -1,0 +1,11 @@
+reset_state
+
+# Setup Multicast for Flooding
+mc_mgrp_create 1
+mc_node_create 1 1 2 3 4
+mc_node_associate 1 0
+
+table_add dmac forward aa:00:00:00:02:04 => 1
+table_add dmac forward aa:00:00:00:02:05 => 2
+table_add dmac forward aa:00:00:00:02:06 => 3
+table_add dmac forward cc:00:00:00:02:02 => 4
