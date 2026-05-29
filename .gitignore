@@ -1,1 +1,5 @@
 .vscode/
+build/
+logs/
+**/__pycache__/
+*.pyc

@@ -1,0 +1,6 @@
+# cNF configuration
+interface:      veth-cnf1        # container-side veth (connected to s3 port 3)
+cnf_mac:        "aa:00:00:00:05:01"
+cnf_ip:         "10.0.3.1"       # dedicated management subnet for cNF <-> controller
+controller_mac: "aa:00:00:00:05:02"
+controller_ip:  "10.0.3.2"
