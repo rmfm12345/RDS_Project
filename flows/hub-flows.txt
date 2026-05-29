@@ -1,4 +1,0 @@
-reset_state
-mc_mgrp_create 1
-mc_node_create 1 1 2 3 4
-mc_node_associate 1 0
